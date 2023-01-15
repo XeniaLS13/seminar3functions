@@ -31,4 +31,4 @@ string GetInfoByDayWeek(int day)
     else
         return ("вы на другой ...");
 }
-Console.WriteLine(GetInfoByDayWeek[5]);
+Console.WriteLine(GetInfoByDayWeek(5));
